@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/projects_parents/projects_eureka/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/projects_parents/projects_common/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/projects_parents/projects_service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/projects_parents/projects_web/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/projects_parents/projects_db/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="projects_eureka" />
+        <module name="projects_gateway" />
+        <module name="projects_service_works" />
+        <module name="projects_common" />
+        <module name="projects_db" />
+        <module name="projects_web" />
+        <module name="projects_service_works_api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="projects_common" options="-parameters" />
+      <module name="projects_db" options="-parameters" />
+      <module name="projects_eureka" options="-parameters" />
+      <module name="projects_gateway" options="-parameters" />
+      <module name="projects_parents" options="" />
+      <module name="projects_service" options="" />
+      <module name="projects_service_api" options="" />
+      <module name="projects_service_works" options="-parameters" />
+      <module name="projects_service_works_api" options="-parameters" />
+      <module name="projects_web" options="-parameters" />
+    </option>
+  </component>
+</project>

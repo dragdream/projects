@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/projects_parents/projects_common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects_parents/projects_db/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects_parents/projects_eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects_parents/projects_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects_parents/projects_service/projects_service_works/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects_parents/projects_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects_parents/projects_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects_parents/projects_service_api/projects_service_works_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects_parents/projects_service_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects_parents/projects_service_api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects_parents/projects_web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects_parents/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects_parents/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
